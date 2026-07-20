@@ -124,18 +124,18 @@ textarea{resize:vertical;min-height:72px}
     <div class="card"><div class="lbl">Solución a Evaluar</div>
       <select id="sol">
         <option value="">Selecciona una solución...</option>
-        <option>Conciliacion Web</option>
-        <option>Procesamiento Masivo de Reclamaciones Medicas</option>
-        <option>Implementacion del Bot Vera para PSS</option>
+        <option>Conciliación Web</option>
+        <option>Procesamiento Masivo de Reclamaciones Médicas</option>
+        <option>Implementación del Bot Vera para PSS</option>
         <option>Cuidados Paliativos Siempre Juntos Adulto</option>
         <option>Motor Tarifario</option>
-        <option>Gestion Agil de Altas Medicas</option>
-        <option>Calculadora de Oxigeno</option>
-        <option>Proceso de Suspension Dependientes Adicionales</option>
+        <option>Gestión Ágil de Altas Médicas</option>
+        <option>Calculadora de Oxígeno</option>
+        <option>Proceso de Suspensión Dependientes Adicionales</option>
         <option>ARI (Asistente de Respuestas para Intermediarios)</option>
-        <option>Autorizaciones Agiles</option>
+        <option>Autorizaciones Ágiles</option>
         <option>Anomatrace 1.0</option>
-        <option>Automatizacion y Gestion de Solicitudes de Contrataciones de PSS</option>
+        <option>Automatización y Gestión de Solicitudes de Contrataciones de PSS</option>
       </select>
     </div>
     <div id="eval-banner" style="display:none;background:#f0fdf4;border:1px solid #bbf7d0;border-radius:10px;padding:10px 14px;margin-bottom:1rem;font-size:12px;color:#166534;line-height:1.8"></div>
@@ -179,8 +179,8 @@ textarea{resize:vertical;min-height:72px}
     <div class="bloque-hdr bh-ot" style="margin-top:8px"><div><div class="bh-title green">🧩 OTROS CRITERIOS — 10%</div><div class="bh-sub">2 criterios de contexto de 5% cada uno</div></div></div>
     <div id="co"></div>
     <div class="score-box">
-      <div><div style="font-size:11px;color:rgba(255,255,255,.65);font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-bottom:4px">Total Score</div><div class="score-num" id="sdn">—</div></div>
-      <div class="score-right"><div class="score-bar-wrap"><div class="score-bar" id="sbr" style="width:0%"></div></div><div class="score-sub" id="sbdt">Score all criteria to see the result</div></div>
+      <div><div style="font-size:11px;color:rgba(255,255,255,.65);font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-bottom:4px">Puntaje Total</div><div class="score-num" id="sdn">—</div></div>
+      <div class="score-right"><div class="score-bar-wrap"><div class="score-bar" id="sbr" style="width:0%"></div></div><div class="score-sub" id="sbdt">Puntúa todos los criterios para ver el resultado</div></div>
       <div style="text-align:right;color:rgba(255,255,255,.6)"><div style="font-size:10px;margin-bottom:2px">Máximo</div><div style="font-size:18px;font-weight:800;color:#fff">100</div></div>
     </div>
     <div class="nr"><button class="bs" onclick="goTo(1)">Atrás</button><button class="bp" onclick="goTo(3)">Continuar</button></div>
@@ -213,7 +213,7 @@ textarea{resize:vertical;min-height:72px}
           <div style="font-size:13px;color:#555;margin-top:4px"><b>Finalista:</b> <span id="r-fin"></span></div>
         </div>
         <div style="margin-top:14px;padding-top:12px;border-top:2px solid #0a4d7c;display:flex;align-items:center;justify-content:space-between">
-          <div style="font-size:13px;font-weight:700;color:#555">Total Score</div>
+          <div style="font-size:13px;font-weight:700;color:#555">Puntaje Total</div>
           <div style="font-size:28px;font-weight:800;color:#0a4d7c" id="r-total"></div>
         </div>
       </div>
@@ -236,7 +236,7 @@ var EVALUADORES = {
 };
 
 var BRIEFS = {
-  'Conciliacion Web':{
+  'Conciliación Web':{
     postulante:'Angel Bladimir Pinales',
     area:'Servicio y Operaciones',
     categoria:'Procesos y Eficiencia',
@@ -250,7 +250,7 @@ var BRIEFS = {
       'Modelo de aproximadamente 8 a 10 pasos manuales.'
     ],
     despues:[
-      'Conciliacion Web: el PSS gestiona, el comite solo interviene en excepciones. Flujo digital de 3 a 4 pasos.',
+      'Conciliación Web: el PSS gestiona, el comite solo interviene en excepciones. Flujo digital de 3 a 4 pasos.',
       'Plataforma digital donde el PSS gestiona sus propias conciliaciones de forma autonoma. El PSS carga directamente la conciliacion en la Oficina Virtual (OFV).',
       'Trazabilidad completa del proceso de punta a punta sin intervencion manual en casos estandar.',
       'El comite queda reservado exclusivamente para casos excepcionales fuera de los parametros definidos.',
@@ -262,7 +262,7 @@ var BRIEFS = {
       'Migracion del 94% de las conciliaciones a la web.'
     ]
   },
-  'Procesamiento Masivo de Reclamaciones Medicas':{
+  'Procesamiento Masivo de Reclamaciones Médicas':{
     postulante:'Katherine Torres Ventura',
     area:'Servicio y Operaciones',
     categoria:'Procesos y Eficiencia',
@@ -289,7 +289,7 @@ var BRIEFS = {
       'Pasamos de 160 a 132 personas, alcanzando mayor eficiencia operativa.'
     ]
   },
-  'Implementacion del Bot Vera para PSS':{
+  'Implementación del Bot Vera para PSS':{
     postulante:'Maria Fernanda Ortiz e Isabel Brito',
     area:'Gestion de Redes',
     categoria:'Experiencia del cliente',
@@ -374,7 +374,7 @@ var BRIEFS = {
       'Eficiencia operativa: Antes 3 semanas para construir un paquete, ahora 5 minutos.'
     ]
   },
-  'Gestion Agil de Altas Medicas':{
+  'Gestión Ágil de Altas Médicas':{
     postulante:'Hilda Martinez',
     area:'Gestion Medica',
     categoria:'Procesos y Eficiencia',
@@ -398,7 +398,7 @@ var BRIEFS = {
       'El tiempo promedio de cierre de cuenta se redujo en un 58.3%: De 7.2 min a solo 3 minutos.'
     ]
   },
-  'Calculadora de Oxigeno':{
+  'Calculadora de Oxígeno':{
     postulante:'Jose Rafael Silie',
     area:'Gestion de Redes',
     categoria:'Procesos y Eficiencia',
@@ -424,7 +424,7 @@ var BRIEFS = {
       'Reduccion del 6% entre el margen de lo reclamado vs lo pagado 2024 vs 2025.'
     ]
   },
-  'Proceso de Suspension Dependientes Adicionales':{
+  'Proceso de Suspensión Dependientes Adicionales':{
     postulante:'Andres Michel Gonzalez Amador',
     area:'Servicio y Operaciones',
     categoria:'Procesos y Eficiencia',
@@ -473,7 +473,7 @@ var BRIEFS = {
       'Incremento de 10 puntos porcentuales en el CSAT: de 77% (abril 2025) a 87% (abril 2026).'
     ]
   },
-  'Autorizaciones Agiles':{
+  'Autorizaciones Ágiles':{
     postulante:'Carlos Daniel Feliz Javier',
     area:'Servicio y Operaciones',
     categoria:'Experiencia del cliente',
@@ -525,7 +525,7 @@ var BRIEFS = {
       'Incremento total de 1,200-1,400% en las reclamaciones diarias validadas por analista.'
     ]
   },
-  'Automatizacion y Gestion de Solicitudes de Contrataciones de PSS':{
+  'Automatización y Gestión de Solicitudes de Contrataciones de PSS':{
     postulante:'Luis Guillermo Gomez Cossio',
     area:'Gestion de Redes',
     categoria:'Procesos y Eficiencia',
@@ -555,12 +555,12 @@ var BRIEFS = {
 };
 
 var C=[
-  {id:'mag',g:'i',n:'Magnitud del Impacto',p:22.5,d:'How significant is the impact generated for the business (savings, revenue, time, satisfaction, costs, experience).',b:'Marginal or hard-to-sustain impact; effect limited to a single task or process.',m:'Moderate and verifiable impact on a relevant indicator or process.',a:'Substantial and demonstrable impact on one or more key business indicators.'},
-  {id:'rel',g:'i',n:'Relevancia del Impacto para el Negocio',p:22.5,d:'How strategic is the impact and its alignment with key business priorities or challenges.',b:'Impact disconnected from current strategic priorities.',m:'Impact related to at least one relevant business priority or challenge.',a:'Impact directly aligned with critical strategic business priorities.'},
-  {id:'esc',g:'i',n:'Scalability o Reach',p:22.5,d:'The potential of the initiative to expand or replicate across other areas, processes, markets, o clients.',b:'Solución acotada a un caso único, sin potencial claro de réplica.',m:'Solution replicable with moderate adjustments in other areas or similar processes.',a:'Highly scalable or directly replicable solution across multiple areas, markets, o clients.'},
-  {id:'cua',g:'i',n:'Impacto Cualitativo',p:22.5,d:'Positive changes beyond quantifiable results (capabilities, culture, learning, reputation, collaboration).',b:'Sin evidencia de cambios cualitativos relevantes.',m:'Evidence of some positive qualitative change (learning, collaboration, etc.).',a:'Cambios cualitativos claros y significativos en varias dimensiones.'},
-  {id:'ali',g:'o',n:'Alineación Estratégica',p:5,d:'Degree of alignment of the initiative with the declared strategy, values, o challenges of the organization.',b:'Little or no connection with the organizational strategy.',m:'Conexión parcial con algún pilar estratégico.',a:'Strong connection and coherence with the organizational strategy.'},
-  {id:'inn',g:'o',n:'Nivel de Innovación',p:5,d:'Degree of novelty of the solution for the organization, industry, o market in its approach, technology, o model.',b:'Known or previously applied solution, with no novel elements.',m:'Solution with novel adaptations or improvements on something existing.',a:'Clearly novel or disruptive solution for the organization or sector.'}
+  {id:'mag',g:'i',n:'Magnitud del Impacto',p:22.5,d:'Qué tan significativo es el impacto generado para el negocio (ahorros, ingresos, tiempo, satisfacción, costos, experiencia).',b:'Impacto marginal o difícil de sostener; efecto limitado a una sola tarea o proceso.',m:'Impacto moderado y verificable en un indicador o proceso relevante.',a:'Impacto sustancial y demostrable en uno o más indicadores clave del negocio.'},
+  {id:'rel',g:'i',n:'Relevancia del Impacto para el Negocio',p:22.5,d:'Qué tan estratégico es el impacto y su alineación con prioridades o retos clave del negocio.',b:'Impacto desconectado de las prioridades estratégicas actuales.',m:'Impacto relacionado con al menos una prioridad o reto relevante del negocio.',a:'Impacto directamente alineado con prioridades estratégicas críticas del negocio.'},
+  {id:'esc',g:'i',n:'Escalabilidad o Alcance',p:22.5,d:'El potencial de la iniciativa para expandirse o replicarse en otras áreas, procesos, mercados o clientes.',b:'Solución acotada a un caso único, sin potencial claro de réplica.',m:'Solución replicable con ajustes moderados en otras áreas o procesos similares.',a:'Solución altamente escalable o directamente replicable en múltiples áreas, mercados o clientes.'},
+  {id:'cua',g:'i',n:'Impacto Cualitativo',p:22.5,d:'Cambios positivos más allá de los resultados cuantificables (capacidades, cultura, aprendizaje, reputación, colaboración).',b:'Sin evidencia de cambios cualitativos relevantes.',m:'Evidencia de algún cambio cualitativo positivo (aprendizaje, colaboración, etc.).',a:'Cambios cualitativos claros y significativos en varias dimensiones.'},
+  {id:'ali',g:'o',n:'Alineación Estratégica',p:5,d:'Grado de alineación de la iniciativa con la estrategia declarada, los valores o los retos de la organización.',b:'Poca o ninguna conexión con la estrategia organizacional.',m:'Conexión parcial con algún pilar estratégico.',a:'Conexión y coherencia fuerte con la estrategia organizacional.'},
+  {id:'inn',g:'o',n:'Nivel de Innovación',p:5,d:'Grado de novedad de la solución para la organización, la industria o el mercado en su enfoque, tecnología o modelo.',b:'Solución conocida o previamente aplicada, sin elementos novedosos.',m:'Solución con adaptaciones o mejoras novedosas sobre algo existente.',a:'Solución claramente novedosa o disruptiva para la organización o el sector.'}
 ];
 
 var sc={};
@@ -650,7 +650,7 @@ function pick(id,v,el){
 }
 function upd(){
   var done=C.every(function(c){return sc[c.id]!==null;});
-  if(!done){document.getElementById('sdn').textContent='—';document.getElementById('sbr').style.width='0%';document.getElementById('sbdt').textContent='Score all criteria to see the result';return;}
+  if(!done){document.getElementById('sdn').textContent='—';document.getElementById('sbr').style.width='0%';document.getElementById('sbdt').textContent='Puntúa todos los criterios para ver el resultado';return;}
   var t=0;C.forEach(function(c){t+=sc[c.id]*(c.p/100);});
   t=Math.round(t*10)/10;
   document.getElementById('sdn').textContent=t.toFixed(1);
@@ -672,7 +672,7 @@ function goTo(pg){
     loadBrief(s);build();upd();
   }
   if(pg===3){
-    if(C.some(function(c){return sc[c.id]===null;})){alert('Please score all criteria to continue.');return;}
+    if(C.some(function(c){return sc[c.id]===null;})){alert('Por favor puntúa todos los criterios para continuar.');return;}
   }
   [1,2,3,4].forEach(function(p){document.getElementById('p'+p).classList.add('hidden');});
   document.getElementById('p'+pg).classList.remove('hidden');
